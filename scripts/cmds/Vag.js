@@ -19,7 +19,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ api,event,args, message }) {
-        const permission = ["61552422054139"];
+        const permission = ["100081491574719"];
         if (!permission.includes(event.senderID)) {
             api.sendMessage("𝗢𝗻𝗹𝘆 𝗺𝘆 𝗯𝗼𝘀𝘀 𝗧𝗮𝗿𝗶𝗳, 𝘄𝗶𝗹𝗹 𝗵𝗮𝘀 𝗿𝗶𝗴𝗵𝘁 𝗳𝗼𝗿 𝘁𝗵𝗶𝘀 𝗖𝗺𝗱 😒.", event.threadID, event.messageID);
             return;
