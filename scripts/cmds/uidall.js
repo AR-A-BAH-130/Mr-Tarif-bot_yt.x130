@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     name: 'uidall',
-    author: 'ar a bah 𝐱130',
+    author: '𝐀𝐒𝐈𝐅 𝐱𝟔𝟗',
     version: '1.0.0',
     role: 2,
     category: 'goatbot',
