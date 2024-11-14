@@ -4,8 +4,8 @@ const path = require("path");
 
 module.exports = {
   config: {
-    name: "tempmail",
-    aliases: [`tm`],
+    name: "temp",
+    aliases: [`temp`],
     version: "1.0.0",
     author: "ArYan🐔",
     role: 0,
