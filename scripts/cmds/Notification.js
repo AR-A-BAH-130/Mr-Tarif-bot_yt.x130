@@ -2,10 +2,10 @@ const { getStreamsFromAttachment } = global.utils;
 
 module.exports = {
   config: {
-    name: "notification2",
-    aliases: ["notify2", "noti2"],
+    name: "notification",
+    aliases: ["notify", "noti"],
     version: "1.7",
-    author: "NTKhang / ar a bah 👨🏿‍🌾",
+    author: "NTKhang",
     countdown: 5,
     role: 2,
     shortDescription: {
@@ -47,7 +47,7 @@ module.exports = {
     if (!args[0])
       return message.reply(getLang("missingMessage"));
     const formSend = {
-      body: `${getLang("notification")}\n ━━━━━ ◈\n\n✏${args.join(" ")}\n\n━━━━━ ◈\n━「♡︎𝙈𝙍 𝙏𝘼𝙍𝙄𝙁 𝙔𝙩♡︎」━`,
+      body: `${getLang("notification")}\n ━━━━━ ◈\n\n✏${args.join(" ")}\n\n━━━━━ ◈\n━「‣𒁍Ꮇʀ✓ᵀᴬᴿᴵᶠ✓𝙱☺︎︎𝚃✓𝐱130」━`,
       attachment: await getStreamsFromAttachment(
         [
           ...event.attachments,
