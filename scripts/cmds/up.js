@@ -23,8 +23,8 @@ module.exports = {
 
     onStart: async function ({ message, event, api, usersData, threadsData }) {
         const gifURLs = [
-            "https://i.ibb.co/Gk4MzRf/image.gif",
-            "https://i.ibb.co/nj0ysh5/image.gif"
+            "https://i.imgur.com/BYBw1u3.jpeg",
+            "https://i.imgur.com/BYBw1u3.jpeg"
         ];
 
         const randomGifURL = gifURLs[Math.floor(Math.random() * gifURLs.length)];
