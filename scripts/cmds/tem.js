@@ -14,8 +14,8 @@ function generateRandomId() {
 
 module.exports = {
 		config: {
-				name: 'tempmail2',
-			        aliases: ["tm2"],
+				name: 'tem',
+			        aliases: ["tem"],
 				version: '2.1.0',
 				author: "DekuXMahi", // not change credits
 				countDown: 5,
