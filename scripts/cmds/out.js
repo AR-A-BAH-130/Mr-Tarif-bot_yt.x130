@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const request = require("request");
 module.exports = {
 	config: {
-		name: "vag",
+		name: "out",
 		aliases: ["vag"],
 		version: "1.0",
 		author: "ncs pro with TARIF",
