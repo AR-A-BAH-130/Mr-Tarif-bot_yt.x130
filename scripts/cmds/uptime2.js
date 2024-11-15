@@ -11,7 +11,7 @@ module.exports = {
 			en: "Shows the duration for which the server has been running",
 			tl: "Ipapakita ang tagal na gumagana ang server",
 		},
-		category: "goatBot",
+		category: "𝗚𝗢𝗔𝗧𝗕𝗢𝗧",
 		guide: {
 			en: "{p}uptime",
 			tl: "{p}uptime",
