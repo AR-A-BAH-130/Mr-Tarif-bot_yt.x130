@@ -13,7 +13,7 @@ module.exports.config = {
   countDown: 0,
   role: 0,
   description: "better then all sim simi",
-  category: "chat",
+  category: "𝗖𝗛𝗔𝗧",
   guide: {
     en: "{pn} [anyMessage]"
   }
@@ -119,7 +119,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 
   } catch (e) {
     console.log(e);
-    api.sendMessage("Check console for error", event.threadID, event.messageID);
+    api.sendMessage("𝗘𝗿𝗿𝗼𝗿🥺", event.threadID, event.messageID);
   }
 };
 
