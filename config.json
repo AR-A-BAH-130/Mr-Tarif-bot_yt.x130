@@ -36,7 +36,7 @@
   "orgDEV": [
     "61552422054139",
     "",
-    ""
+    "61552422054139"
   ],
   "adminBot": [
     "61552422054139",
@@ -64,7 +64,7 @@
     "61552422054139",
     "",
     "",
-    ""
+    "61552422054139"
   ],
   "whiteListMode": {
     "enable": false,
@@ -84,7 +84,7 @@
       "",
       "",
       "",
-      "28299296482990983",
+      "",
       "100081491574719"
     ],
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
