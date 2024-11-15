@@ -20,7 +20,7 @@ module.exports = {
 				countDown: 5,
 				role: 0,
 				shortDescription: 'Generate temporary email (auto get inbox)',
-				category: 'generate',
+				category: '𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘',
 				guide: {
 						en: '[tempmail]'
 				}
