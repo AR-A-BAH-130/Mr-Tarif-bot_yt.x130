@@ -51,7 +51,7 @@ module.exports = {
 
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
-            const cmds = names.slice(i, i + 2).map((item) => `♪ ${item}`);
+            const cmds = names.slice(i, i + 2).map((item) => `▪ ${item}`);
             msg += `\n│${cmds.join(" ".repeat(Math.max(1, 5 - cmds.join("").length)))}`;
           }
 
@@ -60,9 +60,10 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\n╭─☺︎︎ [ 𝗘𝗡𝗝𝗢𝗬 ]\n│ƚɾყρ❏ ${prefix}Help ƚɾყρ\n╰────────────☺︎︎`;
+      msg += `\n\n╭─☺︎︎『Ꮇʀ✓┳ꋬɾ꒐ᶠ✓𝐱130 』\    		╰‣ Total commands: [ ${totalCommands} ].\n╰‣ all cmd ${prefix}Help ƚɾყρ\n`;
       msg += ``;
-      msg += `\n╭─☺︎︎\n│ Ꮇʀ✓ᵀᴬᴿᴵᶠ✓𝐱130  \n╰────────────☺︎︎`; // its not decoy so change it if you want 
+      msg += `\╰‣ Admin :亗 ɱʀ ƬʌʀᎥʆ Ƴt  
+╰‣ FB:ID: https://m.me/Mr.tarif.yt.x130`; // its not decoy so change it if you want 
 
 
       await message.reply({
